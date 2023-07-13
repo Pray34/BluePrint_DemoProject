@@ -1,0 +1,966 @@
+﻿Log file open, 06/15/23 11:57:31
+LogInit: Display: Running engine for game: TestProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.668597
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 3800X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2070 SUPER
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE.4.25/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.06.15-02.57.33:058][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.06.15-02.57.33:058][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Engine.ini]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Engine.ini]
+[2023.06.15-02.57.33:059][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Engine.ini]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Engine.ini]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.06.15-02.57.33:059][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Engine.ini]
+[2023.06.15-02.57.33:059][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Engine.ini]
+[2023.06.15-02.57.33:157][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.06.15-02.57.33:157][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2023.06.15-02.57.33:158][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2023.06.15-02.57.33:167][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.15-02.57.33:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.06.15-02.57.33:178][  0]LogHAL: Display: Platform has ~ 32 GB [34306293760 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.06.15-02.57.33:178][  0]LogInit: Going up to parent DeviceProfile []
+[2023.06.15-02.57.33:179][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.06.15-02.57.33:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Scalability.ini]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2023.06.15-02.57.33:180][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.06.15-02.57.33:192][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.06.15-02.57.33:192][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.06.15-02.57.33:192][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.06.15-02.57.33:192][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/LHY_Portfolio/TestProject/Saved/Config/Windows/Engine.ini]
+[2023.06.15-02.57.33:192][  0]LogInit: Computer: DESKTOP-BY-LHY
+[2023.06.15-02.57.33:192][  0]LogInit: User: 이해용
+[2023.06.15-02.57.33:192][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.06.15-02.57.33:192][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.06.15-02.57.33:192][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2023.06.15-02.57.33:192][  0]LogMemory: Platform Memory Stats for Windows
+[2023.06.15-02.57.33:192][  0]LogMemory: Process Physical Memory: 119.77 MB used, 119.78 MB peak
+[2023.06.15-02.57.33:192][  0]LogMemory: Process Virtual Memory: 97.85 MB used, 97.85 MB peak
+[2023.06.15-02.57.33:192][  0]LogMemory: Physical Memory: 9575.73 MB used,  23141.30 MB free, 32717.03 MB total
+[2023.06.15-02.57.33:192][  0]LogMemory: Virtual Memory: 5187.58 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2023.06.15-02.57.33:217][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.06.15-02.57.33:699][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.06.15-02.57.33:712][  0]LogInit: Using OS detected language (ko-KR).
+[2023.06.15-02.57.33:712][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.06.15-02.57.33:745][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2023.06.15-02.57.34:039][  0]LogInit: Setting process to per monitor DPI aware
+[2023.06.15-02.57.34:361][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.06.15-02.57.34:361][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.06.15-02.57.35:464][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.06.15-02.57.35:464][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.06.15-02.57.35:464][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.06.15-02.57.35:464][  0]LogD3D11RHI: D3D11 adapters:
+[2023.06.15-02.57.35:657][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 SUPER' (Feature Level 11_0)
+[2023.06.15-02.57.35:657][  0]LogD3D11RHI:       8003/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.06.15-02.57.35:659][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.06.15-02.57.35:659][  0]LogD3D11RHI:       0/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.06.15-02.57.35:659][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.06.15-02.57.35:676][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.06.15-02.57.35:676][  0]LogD3D11RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2023.06.15-02.57.35:676][  0]LogWindows: EnumDisplayDevices:
+[2023.06.15-02.57.35:676][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2023.06.15-02.57.35:677][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2023.06.15-02.57.35:677][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2023.06.15-02.57.35:677][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2023.06.15-02.57.35:677][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.06.15-02.57.35:677][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2023.06.15-02.57.35:677][  0]LogD3D11RHI:   Driver Version: 535.98 (internal:31.0.15.3598, unified:535.98)
+[2023.06.15-02.57.35:677][  0]LogD3D11RHI:      Driver Date: 5-24-2023
+[2023.06.15-02.57.35:677][  0]LogRHI: Texture pool is 5602 MB (70% of 8003 MB)
+[2023.06.15-02.57.35:769][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.06.15-02.57.35:775][  0]LogD3D11RHI: Async texture creation enabled
+[2023.06.15-02.57.35:775][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.06.15-02.57.35:777][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061083).
+[2023.06.15-02.57.35:973][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.06.15-02.57.36:434][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.06.15-02.57.36:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.06.15-02.57.36:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.06.15-02.57.36:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.06.15-02.57.36:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.06.15-02.57.36:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.06.15-02.57.36:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.06.15-02.57.36:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.06.15-02.57.36:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.06.15-02.57.36:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.06.15-02.57.36:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.06.15-02.57.36:521][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.06.15-02.57.36:521][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.06.15-02.57.36:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.06.15-02.57.36:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.06.15-02.57.36:589][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.06.15-02.57.36:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.06.15-02.57.36:638][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.06.15-02.57.36:659][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.06.15-02.57.36:670][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.06.15-02.57.36:704][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.06.15-02.57.36:704][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.06.15-02.57.36:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.06.15-02.57.36:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.06.15-02.57.36:755][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.06.15-02.57.36:772][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.06.15-02.57.36:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.06.15-02.57.36:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.06.15-02.57.36:800][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.06.15-02.57.36:907][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.06.15-02.57.37:290][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../LHY_Portfolio/TestProject/Intermediate/Shaders/WorkingDirectory/16532/).
+[2023.06.15-02.57.37:290][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/이해용/AppData/Local/Temp/UnrealShaderWorkingDir/24AF438849B201DFF8E39589A300C6FE/'.
+[2023.06.15-02.57.37:301][  0]LogXGEController: Cleaning working directory: C:/Users/이해용/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2023.06.15-02.57.37:301][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.06.15-02.57.37:301][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.06.15-02.57.37:301][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.06.15-02.57.39:439][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.06.15-02.57.39:518][  0]LogDerivedDataCache: Loaded boot cache 0.06s 88MB C:/Users/이해용/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2023.06.15-02.57.39:518][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/이해용/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2023.06.15-02.57.39:518][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../LHY_Portfolio/TestProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.06.15-02.57.39:518][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.06.15-02.57.39:518][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../LHY_Portfolio/TestProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.15-02.57.39:518][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.06.15-02.57.39:647][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.06.15-02.57.39:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.15-02.57.39:647][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.06.15-02.57.39:649][  0]LogDerivedDataCache: Using Local data cache path C:/Users/이해용/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.06.15-02.57.39:649][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.06.15-02.57.39:649][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.06.15-02.57.39:733][  0]LogSlate: Using FreeType 2.10.0
+[2023.06.15-02.57.39:786][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.06.15-02.57.40:061][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2023.06.15-02.57.43:041][  0]LogInit: Selected Device Profile: [Windows]
+[2023.06.15-02.57.43:958][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.06.15-02.57.43:958][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.06.15-02.57.43:958][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.06.15-02.57.43:958][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.06.15-02.57.43:958][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.06.15-02.57.44:243][  0]LogNetVersion: TestProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 425312845)
+[2023.06.15-02.57.47:806][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001FE8DD3E9C0), frame # 0
+[2023.06.15-02.57.47:806][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FE90F8FEC0), frame # 0
+[2023.06.15-02.57.47:809][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FE8DD4E400), frame # 0
+[2023.06.15-02.57.48:087][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.132362 seconds
+[2023.06.15-02.57.48:098][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2023.06.15-02.57.48:098][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2023.06.15-02.57.48:098][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.06.15-02.57.50:798][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.06.15-02.57.50:830][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.06.15-02.57.51:217][  0]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.15-02.57.51:224][  0]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2023.06.15-02.57.51:224][  0]LogUObjectGlobals: Warning: 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2023.06.15-02.57.51:369][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.15-02.57.51:378][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.15-02.57.51:445][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.15-02.57.51:462][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.15-02.57.51:483][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.15-02.57.52:902][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.06.15-02.57.52:966][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.15-02.57.52:966][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.15-02.57.53:260][  0]LogOcInput: OculusInput pre-init called
+[2023.06.15-02.57.53:290][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.06.15-02.57.53:290][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.06.15-02.57.54:062][  0]LogEngine: Initializing Engine...
+[2023.06.15-02.57.54:074][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.06.15-02.57.54:074][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2023.06.15-02.57.54:131][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.017 s
+[2023.06.15-02.57.54:518][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.06.15-02.57.54:765][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.06.15-02.57.54:765][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FE95EE9C00), frame # 0
+[2023.06.15-02.57.54:765][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FE95F16340), frame # 0
+[2023.06.15-02.57.54:872][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.15-02.57.54:872][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.15-02.57.54:872][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.15-02.57.54:872][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.15-02.57.54:872][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.15-02.57.54:872][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.06.15-02.57.54:872][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.15-02.57.54:872][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.15-02.57.54:872][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.06.15-02.57.54:872][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.06.15-02.57.54:918][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.06.15-02.57.54:918][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.06.15-02.57.54:955][  0]LogAudioMixer: Display: Using Audio Device 스피커(2- USB PnP Audio Device(EEPROM))
+[2023.06.15-02.57.54:969][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.15-02.57.54:986][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.15-02.57.54:986][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.15-02.57.54:987][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.06.15-02.57.54:988][  0]LogInit: FAudioDevice initialized.
+[2023.06.15-02.57.54:989][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.06.15-02.57.55:035][  0]LogDerivedDataCache: Saved boot cache 0.05s 88MB C:/Users/이해용/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2023.06.15-02.57.55:037][  0]LogInit: Texture streaming: Enabled
+[2023.06.15-02.57.55:109][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.06.15-02.57.55:109][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.06.15-02.57.55:117][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.06.15-02.57.55:503][  0]LogInit: Transaction tracking system initialized
+[2023.06.15-02.57.55:911][  0]BlueprintLog: New page: 에디터 로드
+[2023.06.15-02.57.57:302][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2023.06.15-02.58.01:403][  0]LogFileCache: Scanning file cache for directory 'D:/LHY_Portfolio/TestProject/Content/' took 0.05s
+[2023.06.15-02.58.01:403][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.06.15-02.58.01:403][  0]LogCook: Display: Mobile HDR setting 1
+[2023.06.15-02.58.05:343][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2023.06.15-02.58.05:366][  0]LogUnrealEdMisc: Loading editor; pre map load, took 41.772
+[2023.06.15-02.58.05:499][  0]Cmd: MAP LOAD FILE="../../../../../LHY_Portfolio/TestProject/Content/BP_Character/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.06.15-02.58.05:653][  0]LightingResults: New page: 라이팅 빌드
+[2023.06.15-02.58.05:744][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-02.58.05:776][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-02.58.05:797][  0]MapCheck: New page: 맵 체크
+[2023.06.15-02.58.05:797][  0]LightingResults: New page: 라이팅 빌드
+[2023.06.15-02.58.06:032][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FE95EE9C00), frame # 0
+[2023.06.15-02.58.06:032][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FE95F16340), frame # 0
+[2023.06.15-02.58.06:064][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.06.15-02.58.16:894][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.06.15-02.58.16:894][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FEA2149A00), frame # 0
+[2023.06.15-02.58.16:894][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FEA2189080), frame # 0
+[2023.06.15-02.58.18:010][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.06.15-02.58.18:372][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.06.15-02.58.18:372][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.06.15-02.58.18:401][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 28.32ms.
+[2023.06.15-02.58.18:401][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 12.939
+[2023.06.15-02.58.19:399][  0]LogUnrealEdMisc: Total Editor Startup Time, took 55.806
+[2023.06.15-02.58.20:167][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.15-02.58.20:192][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.15-02.58.20:197][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.15-02.58.20:202][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.15-02.58.20:390][  0]LogCollectionManager: Loaded 0 collections in 0.001083 seconds
+[2023.06.15-02.58.20:750][  0]LogFileCache: Scanning file cache for directory 'D:/LHY_Portfolio/TestProject/Saved/Collections/' took 0.00s
+[2023.06.15-02.58.20:750][  0]LogFileCache: Scanning file cache for directory 'D:/LHY_Portfolio/TestProject/Content/Developers/이해용/Collections/' took 0.00s
+[2023.06.15-02.58.20:750][  0]LogFileCache: Scanning file cache for directory 'D:/LHY_Portfolio/TestProject/Content/Collections/' took 0.00s
+[2023.06.15-02.58.20:750][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3427 classes and 821 folders.
+[2023.06.15-02.58.20:928][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.06.15-02.58.22:415][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.06.15-02.58.22:485][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2023.06.15-02.58.23:411][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.06.15-02.58.23:411][  0]LogLoad: (Engine Initialization) Total time: 59.82 seconds
+[2023.06.15-02.58.23:411][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.06.15-02.58.23:913][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.06.15-02.58.24:082][  0]LogSlate: Took 0.135478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.06.15-02.58.24:173][  0]LogSlate: Took 0.077901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2023.06.15-02.58.24:312][  0]LogSlate: Took 0.137714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2023.06.15-02.58.24:334][  0]LogSlate: Took 0.021096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.06.15-02.58.24:358][  0]LogSlate: Took 0.016808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.06.15-02.58.25:378][  1]LogRenderer: Reallocating scene render targets to support 1088x796 Format 10 NumSamples 1 (Frame:1).
+[2023.06.15-02.58.25:778][  1]LogAssetRegistry: Asset discovery search completed in 45.7186 seconds
+[2023.06.15-02.58.25:781][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2023.06.15-02.58.30:456][249]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Aim_Down.Rifle_Aim_Down
+[2023.06.15-02.58.30:456][249]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Aim_Up.Rifle_Aim_Up
+[2023.06.15-02.58.31:118][249]LogSlate: Took 0.660765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.06.15-02.58.31:141][249]LogAssetEditorSubsystem: Opening Asset editor for AimOffsetBlendSpace1D /Game/Mannequin/RetargetAnimations/Blend/Aim_Offset_Pitch.Aim_Offset_Pitch
+[2023.06.15-02.58.31:230][249]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2023.06.15-02.58.33:240][249]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-02.58.33:268][249]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2023.06.15-02.58.37:246][249]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-02.59.36:646][596]LogSlate: Window 'Aim_Offset_Pitch' being destroyed
+[2023.06.15-02.59.36:666][596]LogSlate: Window 'Aim_Offset_Pitch' being destroyed
+[2023.06.15-02.59.36:666][596]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-02.59.36:666][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-02.59.36:931][596]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-02.59.36:931][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-02.59.39:772][807]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Mannequin/RetargetAnimations/ABP_Player.ABP_Player
+[2023.06.15-02.59.39:804][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-02.59.40:191][807]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2023.06.15-02.59.41:165][807]LogSlate: Took 0.011506 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.06.15-02.59.43:981][971]LogSlate: Took 0.001488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.06.15-03.00.04:100][ 91]LogSlate: Window 'ABP_Player' being destroyed
+[2023.06.15-03.00.04:121][ 91]LogSlate: Window 'ABP_Player' being destroyed
+[2023.06.15-03.00.04:139][ 91]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.04:140][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.00.04:143][ 91]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.04:143][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.00.04:224][ 91]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.04:224][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.00.19:333][370]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip_Break1.Idle_Rifle_Hip_Break1
+[2023.06.15-03.00.19:663][370]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.00.19:702][370]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.00.20:337][370]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.00.24:244][580]LogSlate: Window 'Idle_Rifle_Hip_Break1' being destroyed
+[2023.06.15-03.00.24:265][580]LogSlate: Window 'Idle_Rifle_Hip_Break1' being destroyed
+[2023.06.15-03.00.24:265][580]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.24:265][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.00.24:318][580]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.24:318][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.00.24:379][580]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.24:379][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.00.30:799][  5]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2023.06.15-03.00.30:810][  5]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.00.30:841][  5]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.00.31:092][  5]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.00.36:858][313]LogSlate: Window 'Fire_Rifle_Ironsights' being destroyed
+[2023.06.15-03.00.36:878][313]LogSlate: Window 'Fire_Rifle_Ironsights' being destroyed
+[2023.06.15-03.00.36:879][313]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.36:879][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.00.36:902][313]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.36:902][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.00.36:964][313]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.36:964][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.00.47:736][  1]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights
+[2023.06.15-03.00.47:771][  1]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights
+[2023.06.15-03.00.47:781][  1]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.00.47:814][  1]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.00.48:066][  1]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.00.49:789][ 96]LogSlate: Window 'Crouch_Walk_Rt_Rifle_Ironsights' being destroyed
+[2023.06.15-03.00.49:809][ 96]LogSlate: Window 'Crouch_Walk_Rt_Rifle_Ironsights' being destroyed
+[2023.06.15-03.00.49:810][ 96]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.49:810][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.00.49:835][ 96]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.49:835][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.00.49:899][ 96]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.00.49:899][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.01.16:095][665]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2023.06.15-03.01.16:105][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.01.16:146][665]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.01.16:396][665]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.01.18:166][766]LogSlate: Window 'Idle_Rifle_Hip' being destroyed
+[2023.06.15-03.01.18:187][766]LogSlate: Window 'Idle_Rifle_Hip' being destroyed
+[2023.06.15-03.01.18:187][766]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.01.18:187][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.01.18:215][766]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.01.18:215][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.01.18:278][766]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.01.18:278][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.03:804][200]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog
+[2023.06.15-03.02.03:814][200]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.02.03:848][200]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.02.04:092][200]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.02.07:253][388]LogSlate: Window 'Jump_From_Jog' being destroyed
+[2023.06.15-03.02.07:273][388]LogSlate: Window 'Jump_From_Jog' being destroyed
+[2023.06.15-03.02.07:273][388]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.07:273][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.07:298][388]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.07:298][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.07:359][388]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.07:359][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.08:047][434]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand
+[2023.06.15-03.02.08:057][434]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.02.08:090][434]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.02.08:336][434]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.02.14:160][766]LogSlate: Window 'Jump_From_Stand' being destroyed
+[2023.06.15-03.02.14:181][766]LogSlate: Window 'Jump_From_Stand' being destroyed
+[2023.06.15-03.02.14:181][766]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.14:181][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.14:206][766]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.14:206][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.14:272][766]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.14:273][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.15:554][859]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Jump_From_Stand_Ironsights.Jump_From_Stand_Ironsights
+[2023.06.15-03.02.15:564][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.02.15:604][859]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.02.15:849][859]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.02.17:405][945]LogSlate: Window 'Jump_From_Stand_Ironsights' being destroyed
+[2023.06.15-03.02.17:426][945]LogSlate: Window 'Jump_From_Stand_Ironsights' being destroyed
+[2023.06.15-03.02.17:426][945]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.17:426][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.17:450][945]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.17:451][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.17:511][945]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.17:511][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.18:721][ 14]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog
+[2023.06.15-03.02.18:731][ 14]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.02.18:766][ 14]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.02.19:011][ 14]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.02.21:473][149]LogSlate: Window 'Jump_From_Jog' being destroyed
+[2023.06.15-03.02.21:495][149]LogSlate: Window 'Jump_From_Jog' being destroyed
+[2023.06.15-03.02.21:495][149]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.21:495][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.21:520][149]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.21:520][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.21:581][149]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.21:581][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.22:781][226]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2023.06.15-03.02.22:792][226]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.02.22:828][226]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.02.23:078][226]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.02.24:292][297]LogSlate: Window 'Jog_Rt_Rifle' being destroyed
+[2023.06.15-03.02.24:313][297]LogSlate: Window 'Jog_Rt_Rifle' being destroyed
+[2023.06.15-03.02.24:313][297]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.24:313][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.24:338][297]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.24:338][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.24:400][297]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.24:400][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.31:525][ 11]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Jump_From_Stand_Ironsights.Jump_From_Stand_Ironsights
+[2023.06.15-03.02.31:535][ 11]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.02.31:572][ 11]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.02.31:822][ 11]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.02.34:009][134]LogSlate: Window 'Jump_From_Stand_Ironsights' being destroyed
+[2023.06.15-03.02.34:030][134]LogSlate: Window 'Jump_From_Stand_Ironsights' being destroyed
+[2023.06.15-03.02.34:030][134]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.34:030][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.34:055][134]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.34:055][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.34:118][134]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.34:118][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.34:868][193]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand
+[2023.06.15-03.02.34:877][193]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.02.34:910][193]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.02.35:155][193]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.02.45:851][911]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Mannequin/RetargetAnimations/RetargetJump_Start.RetargetJump_Start
+[2023.06.15-03.02.45:861][911]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.02.46:186][911]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.02.52:437][380]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Mannequin/RetargetAnimations/RetargetJump_End.RetargetJump_End
+[2023.06.15-03.02.52:551][380]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.52:551][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.56:617][628]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Mannequin/RetargetAnimations/Retarget_Loop.Retarget_Loop
+[2023.06.15-03.02.56:719][628]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.56:719][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.58:877][755]LogSlate: Window 'Retarget_Loop' being destroyed
+[2023.06.15-03.02.58:894][755]LogSlate: Window 'Retarget_Loop' being destroyed
+[2023.06.15-03.02.58:895][755]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.58:895][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.58:919][755]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.58:919][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.58:983][755]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.58:983][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.58:999][755]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.58:999][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.59:023][755]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.59:023][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.59:083][755]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.02.59:084][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.02.59:643][788]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand
+[2023.06.15-03.02.59:653][788]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.02.59:687][788]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.02.59:931][788]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.03.06:177][184]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog
+[2023.06.15-03.03.06:278][184]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.03.06:278][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.03.12:657][585]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand
+[2023.06.15-03.03.12:757][585]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.03.12:757][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.03.32:919][789]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Mannequin/RetargetAnimations/RetargetJump_Start.RetargetJump_Start
+[2023.06.15-03.03.32:929][789]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_53:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.03.33:214][789]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.04.07:063][721]LogSlate: Window 'RetargetJump_Start' being destroyed
+[2023.06.15-03.04.07:079][721]LogSlate: Window 'RetargetJump_Start' being destroyed
+[2023.06.15-03.04.07:079][721]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.04.07:079][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.04.07:104][721]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.04.07:104][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.04.07:170][721]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.04.07:170][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.04.07:180][721]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.04.07:180][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.04.07:206][721]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.04.07:206][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.04.07:266][721]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.04.07:266][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.07.05:110][979]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Aim_Space_Hip.Aim_Space_Hip
+[2023.06.15-03.07.05:120][979]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_56:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.07.05:154][979]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_56:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.07.05:394][979]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.09.05:674][163]LogSlate: Window 'Aim_Space_Hip' being destroyed
+[2023.06.15-03.09.05:695][163]LogSlate: Window 'Aim_Space_Hip' being destroyed
+[2023.06.15-03.09.05:696][163]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.09.05:696][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.09.05:720][163]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.09.05:720][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.09.05:782][163]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.09.05:782][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.10.21:089][666]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/AnimStarterPack/Test/Aim_Center.Aim_Center
+[2023.06.15-03.10.21:099][666]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.10.21:131][666]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2023.06.15-03.10.21:365][666]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.11.37:134][ 76]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Test/Aim_Center.Aim_Center
+[2023.06.15-03.12.53:113][130]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2023.06.15-03.12.53:118][130]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BP_Character/Maps/ThirdPersonExampleMap' took 0.100
+[2023.06.15-03.12.53:119][130]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/Test/Aim_Space_Hip] ([1] browsable assets)...
+[2023.06.15-03.12.53:127][130]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/AnimStarterPack/Test/Aim_Space_Hip.Aim_Space_Hip]
+[2023.06.15-03.12.53:127][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/Test/Aim_Space_Hip]
+[2023.06.15-03.12.53:147][130]LogSavePackage: Moving '../../../../../LHY_Portfolio/TestProject/Saved/Aim_Space_Hip_Auto11239595147A82079F38A349D56267CBA.tmp' to '../../../../../LHY_Portfolio/TestProject/Saved/Autosaves/Game/AnimStarterPack/Test/Aim_Space_Hip_Auto1.uasset'
+[2023.06.15-03.12.53:151][130]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/Test/Aim_Center] ([1] browsable assets)...
+[2023.06.15-03.12.53:158][130]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/AnimStarterPack/Test/Aim_Center.Aim_Center]
+[2023.06.15-03.12.53:158][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/Test/Aim_Center]
+[2023.06.15-03.12.53:165][130]LogSavePackage: Moving '../../../../../LHY_Portfolio/TestProject/Saved/Aim_Center_Auto1931B012A47362AE2BC9D56BDC51D3E74.tmp' to '../../../../../LHY_Portfolio/TestProject/Saved/Autosaves/Game/AnimStarterPack/Test/Aim_Center_Auto1.uasset'
+[2023.06.15-03.12.53:165][130]LogFileHelpers: Auto-saving content packages took 0.047
+[2023.06.15-03.13.26:188][827]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Test/Aim_Center.Aim_Center
+[2023.06.15-03.14.00:957][909]LogSlate: Window 'Aim_Center' being destroyed
+[2023.06.15-03.14.00:978][909]LogSlate: Window 'Aim_Center' being destroyed
+[2023.06.15-03.14.00:978][909]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.14.00:978][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.14.01:001][909]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.14.01:001][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.14.01:060][909]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.14.01:060][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.14.05:944][271]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim.Rifle_Idle_Aim
+[2023.06.15-03.14.05:954][271]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_62:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.14.06:237][271]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.15.10:014][ 30]LogSlate: Window 'Rifle_Idle_Aim' being destroyed
+[2023.06.15-03.15.10:034][ 30]LogSlate: Window 'Rifle_Idle_Aim' being destroyed
+[2023.06.15-03.15.10:035][ 30]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.15.10:035][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.15.10:057][ 30]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.15.10:057][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.15.10:138][ 30]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.15.10:138][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.15.37:048][109]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim_Up.Rifle_Idle_Aim_Up
+[2023.06.15-03.15.37:376][109]LogSavePackage: Moving '../../../../../LHY_Portfolio/TestProject/Saved/Rifle_Idle_Aim_UpE385BCB0403699FA4E8FAC901A53FEB3.tmp' to '../../../../../LHY_Portfolio/TestProject/Content/Mannequin/RetargetAnimations/Rifle_Idle_Aim_Up.uasset'
+[2023.06.15-03.15.37:563][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.06.15-03.15.37:603][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.06.15-03.15.37:617][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.06.15-03.15.37:800][109]AssetCheck: New page: 애셋 저장: Rifle_Idle_Aim_Up
+[2023.06.15-03.15.37:800][109]LogContentValidation: Display: AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim_Up.Rifle_Idle_Aim_Up 유효성 검사
+[2023.06.15-03.15.38:713][161]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim_Up.Rifle_Idle_Aim_Up
+[2023.06.15-03.15.38:723][161]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_65:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.15.39:013][161]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.15.52:349][733]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim_Up.Rifle_Idle_Aim_Up
+[2023.06.15-03.15.54:405][810]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim_Up.Rifle_Idle_Aim_Up
+[2023.06.15-03.15.59:764][ 22]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim_Up.Rifle_Idle_Aim_Up
+[2023.06.15-03.16.06:409][303]LogSavePackage: Moving '../../../../../LHY_Portfolio/TestProject/Saved/Rifle_Idle_Aim_Up56E6E5954ECAE39A7DF42B881ECFCBBB.tmp' to '../../../../../LHY_Portfolio/TestProject/Content/Mannequin/RetargetAnimations/Rifle_Idle_Aim_Up.uasset'
+[2023.06.15-03.16.06:427][303]AssetCheck: New page: 애셋 저장: Rifle_Idle_Aim_Up
+[2023.06.15-03.16.06:427][303]LogContentValidation: Display: AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim_Up.Rifle_Idle_Aim_Up 유효성 검사
+[2023.06.15-03.17.35:168][413]LogSlate: Window 'Rifle_Idle_Aim_Up' being destroyed
+[2023.06.15-03.17.35:189][413]LogSlate: Window 'Rifle_Idle_Aim_Up' being destroyed
+[2023.06.15-03.17.35:189][413]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.17.35:189][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.17.35:204][413]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.17.35:204][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.17.35:286][413]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.17.35:286][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.17.37:262][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.06.15-03.17.37:974][529]LogSlate: Window 'Delete Assets' being destroyed
+[2023.06.15-03.17.39:614][529]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim_Up.Rifle_Idle_Aim_Up
+[2023.06.15-03.17.43:610][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.06.15-03.17.43:624][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.06.15-03.17.43:634][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.06.15-03.17.46:962][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.06.15-03.17.48:125][737]LogSlate: Window 'Delete Assets' being destroyed
+[2023.06.15-03.17.49:631][737]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/AnimStarterPack/Test/Aim_Center.Aim_Center
+[2023.06.15-03.17.49:998][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.06.15-03.17.50:532][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.06.15-03.17.51:389][789]LogSlate: Window 'Delete Assets' being destroyed
+[2023.06.15-03.17.52:890][789]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/AnimStarterPack/Test/Aim_Space_Hip.Aim_Space_Hip
+[2023.06.15-03.17.53:262][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.06.15-03.18.06:136][732]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim1.Rifle_Idle_Aim1
+[2023.06.15-03.18.06:146][732]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_68:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.18.06:407][732]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.18.17:726][278]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim1.Rifle_Idle_Aim1
+[2023.06.15-03.18.26:823][773]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim1.Rifle_Idle_Aim1
+[2023.06.15-03.18.29:794][921]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim1.Rifle_Idle_Aim1
+[2023.06.15-03.18.32:364][ 43]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim1.Rifle_Idle_Aim1
+[2023.06.15-03.18.34:329][135]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim1.Rifle_Idle_Aim1
+[2023.06.15-03.18.36:864][248]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim1.Rifle_Idle_Aim1
+[2023.06.15-03.18.53:975][296]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Aim_Up.Rifle_Aim_Up
+[2023.06.15-03.19.02:527][801]LogSlate: Window 'Rifle_Aim_Up' being destroyed
+[2023.06.15-03.19.02:548][801]LogSlate: Window 'Rifle_Aim_Up' being destroyed
+[2023.06.15-03.19.02:548][801]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.19.02:548][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.19.02:618][801]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2023.06.15-03.19.02:618][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.15-03.19.04:206][902]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim1.Rifle_Idle_Aim1
+[2023.06.15-03.19.04:216][902]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_70:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.06.15-03.19.04:479][902]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.06.15-03.21.54:607][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/RetargetAnimations/Rifle_Idle_Aim1" FILE="../../../../../LHY_Portfolio/TestProject/Content/Mannequin/RetargetAnimations/Rifle_Idle_Aim1.uasset" SILENT=true
